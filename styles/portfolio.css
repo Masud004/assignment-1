@@ -133,3 +133,92 @@ main{
     justify-content: center;
     margin-top: 48px;
 }
+
+/* target skills section styles */
+.target-skills{
+    margin-top: 140px;
+    text-align: center;
+    padding-left: 144px;
+    padding-right: 144px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+.skill{
+    text-align: left;
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+  }
+
+.skill-bg-1{
+   background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-bg-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-bg-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+/* footer styles */
+.footer-bg{
+    max-width: 1140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 64px 48px;
+    max-width: 1140px;
+    margin: 50px 150px 0;
+}
+
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    /* padding-top: 64px; */
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+footer input[type="text"]{
+    width: 550px;
+    /* height: 57px; */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    margin-right: 16px;
+}
+
+.btn-submit{
+    background-color: rgba(255, 255, 255, 1);
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+}
